@@ -14,13 +14,13 @@ public class Person {
         this.lastName = lastName;
     }
     public String getName(){
-        return name;
+        return this.name;
     }
-    public void setName(){
-        System.out.println("El nombre es " + name);
+    public String setName(){
+        return this.name;
     }
 
-    public void setLastName(){
-        System.out.println("El apellido es " + lastName);
+    public String setLastName(){
+        return this.lastName;
     }
 }
